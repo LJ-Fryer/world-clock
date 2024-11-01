@@ -31,7 +31,6 @@ h2 {
   display: flex;
   justify-content: space-between;
   padding: 15px 0;
-  margin: 20px 0;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
 }
 .city:last-child {
@@ -40,7 +39,7 @@ h2 {
 .city-name {
   font-size: 30px;
   line-height: 40px;
-  padding-top: 5px;
+  padding-top: 20px;
 }
 .date {
   opacity: 0.5;
@@ -48,17 +47,22 @@ h2 {
   line-height: 20px;
   margin-bottom: 20px;
 }
+.time-element {
+  display: flex;
+  align-items: center;
+}
 .time {
-  font-size: 40px;
+  font-size: 45px;
   line-height: 60px;
   font-weight: 575;
-  padding-top: 5px;
+  padding: 0 10px 0;
 }
-.time small {
-  font-size: 14px;
-  line-height: 28px;
-  vertical-align: middle;
+.seconds-unit {
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 600;
 }
+
 footer {
   text-align: center;
   font-size: 14px;
