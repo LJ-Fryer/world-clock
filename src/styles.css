@@ -4,12 +4,12 @@ body {
 }
 h1 {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 select {
   display: block;
   padding: 10px 20px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   width: 100%;
   border-radius: 5px;
   font-size: 16px;
